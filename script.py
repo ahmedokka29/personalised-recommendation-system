@@ -5,7 +5,7 @@ import hnswlib
 
 import streamlit as st
 
-path = 'D:\Ahmed\GitHub projects\personalised-recommendation-system\All Appliances.csv'
+path = 'All Appliances.csv'
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
 
